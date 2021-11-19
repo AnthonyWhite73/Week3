@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const ToDoList = () => {
+    const [list, setList] = useState(["Mow the lawns you filthy animal", "Walk the dogs", "Wash the car", "Drink beer"])
+    const [inputText, setInputText] = useState("")
+
+    const addHandler = () => {
+        let storedList = [...list]
+        storedList.push(inputText)
+        
+        setList(storedList)        
+        setInputText("")
+    }
+
+    const removeHandler = (index) => {
+        let storedList = [...list]
+        storedList.splice(index, 1)
+        
+        setList(storedList)
+    }
+
+    return (
+        <div>
+            <h1>ToDo List</h1>
+            {list.map((list, index) => {
+                return <h2 key={index}>{list}                  
+                  <button onClick={() => removeHandler (index)}>delete one</button>
+                </h2>
+               
+            })}
+            <input value = {inputText} type="text" onChange={(event) => setInputText(event.target.value)}/>
+            
+            <button onClick={addHandler}>add to my todo list</button>
+            
+            
+        </div>
+    )
 }
 
-export default App;
+export default ToDoList
