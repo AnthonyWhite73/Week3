@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/AnthonyWhite73.github.io/week3/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/AnthonyWhite73.github.io/week3/static/js/main.6550801a.chunk.js",
-    "main.js.map": "/AnthonyWhite73.github.io/week3/static/js/main.6550801a.chunk.js.map",
-    "runtime-main.js": "/AnthonyWhite73.github.io/week3/static/js/runtime-main.916fb502.js",
-    "runtime-main.js.map": "/AnthonyWhite73.github.io/week3/static/js/runtime-main.916fb502.js.map",
-    "static/js/2.1d847635.chunk.js": "/AnthonyWhite73.github.io/week3/static/js/2.1d847635.chunk.js",
-    "static/js/2.1d847635.chunk.js.map": "/AnthonyWhite73.github.io/week3/static/js/2.1d847635.chunk.js.map",
-    "index.html": "/AnthonyWhite73.github.io/week3/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/AnthonyWhite73.github.io/week3/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.1d847635.chunk.js.LICENSE.txt": "/AnthonyWhite73.github.io/week3/static/js/2.1d847635.chunk.js.LICENSE.txt"
+    "main.css": "/week3/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/week3/static/js/main.6550801a.chunk.js",
+    "main.js.map": "/week3/static/js/main.6550801a.chunk.js.map",
+    "runtime-main.js": "/week3/static/js/runtime-main.b87ba9d4.js",
+    "runtime-main.js.map": "/week3/static/js/runtime-main.b87ba9d4.js.map",
+    "static/js/2.1d847635.chunk.js": "/week3/static/js/2.1d847635.chunk.js",
+    "static/js/2.1d847635.chunk.js.map": "/week3/static/js/2.1d847635.chunk.js.map",
+    "index.html": "/week3/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/week3/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.1d847635.chunk.js.LICENSE.txt": "/week3/static/js/2.1d847635.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.916fb502.js",
+    "static/js/runtime-main.b87ba9d4.js",
     "static/js/2.1d847635.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
     "static/js/main.6550801a.chunk.js"
